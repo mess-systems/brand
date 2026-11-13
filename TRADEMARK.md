@@ -1,0 +1,7 @@
+# Логотип и имя / Logo and name / 标志与名称
+
+**Русский.** Знак «m.», словесный знак и имя «mess.systems» принадлежат Павлу Евдокимову, все права защищены. Лицензия CC BY 4.0 этого репозитория на них не распространяется. Их можно показывать без изменений, чтобы сослаться на проект mess.systems или его материалы: в статье, докладе, списке ссылок. Нельзя использовать их так, будто проект вас поддерживает или сертифицирует, выдавать себя за проект или говорить от его имени, включать их в собственный логотип, название продукта или домен. Если сомневаетесь, напишите в [Telegram-канал](https://t.me/mess_systems).
+
+**English.** The “m.” mark, the wordmark and the name “mess.systems” belong to Pavel Evdokimov, all rights reserved. The CC BY 4.0 licence of this repository does not apply to them. You may show them unchanged to refer to the mess.systems project or its materials: in an article, a talk, a list of links. You may not use them in a way that suggests the project endorses or certifies you, impersonate the project or speak on its behalf, or include them in your own logo, product name or domain. If in doubt, ask via the [Telegram channel](https://t.me/mess_systems).
+
+**简体中文。** “m.” 标志、文字标和名称 “mess.systems” 归 Pavel Evdokimov（Павел Евдокимов）所有，保留所有权利。本仓库的 CC BY 4.0 许可不适用于它们。可以原样展示，用于指代 mess.systems 项目或其材料，例如文章、演讲、链接列表。不得以暗示本项目为您背书或认证的方式使用，不得冒充本项目或以其名义发言，不得将其用于您自己的标志、产品名称或域名。如有疑问，请通过 [Telegram 频道](https://t.me/mess_systems) 联系。

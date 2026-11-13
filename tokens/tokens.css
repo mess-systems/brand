@@ -1,0 +1,148 @@
+/* mess.systems design tokens v1.0 — CC BY 4.0 — https://github.com/mess-systems/brand */
+
+:root {
+  /* primitives */
+  --ms-ink-950: #0B0D10;
+  --ms-ink-900: #111418;
+  --ms-ink-850: #1A1E24;
+  --ms-ink-800: #1F2328;
+  --ms-ink-700: #2D333B;
+  --ms-ink-600: #424A53;
+  --ms-ink-500: #59636E;
+  --ms-ink-400: #818B98;
+  --ms-ink-300: #9AA4AF;
+  --ms-ink-200: #D8DEE4;
+  --ms-ink-100: #EAEDF0;
+  --ms-ink-50: #F3F4F6;
+  --ms-paper-0: #FFFFFF;
+  --ms-paper-50: #FAF9F6;
+  --ms-paper-100: #F1EEE6;
+  --ms-paper-200: #E4DFD3;
+  --ms-signal-100: #FCE6DF;
+  --ms-signal-300: #FF7A5C;
+  --ms-signal-500: #E5482D;
+  --ms-signal-700: #B5341A;
+  --ms-link-300: #6CB6FF;
+  --ms-link-600: #0B5CAD;
+  --ms-green-300: #3FB27F;
+  --ms-green-600: #2E7D5B;
+  --ms-amber-300: #E3A548;
+  --ms-amber-700: #8A5A12;
+
+  /* dimension */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-full: 999px;
+  --stroke-link: 1.5px;
+  --stroke-loop: 2.5px;
+  --measure: 42rem;
+
+  /* typography */
+  --font-sans: "IBM Plex Sans", "Noto Sans SC", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-zh: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --type-display: 600 4.5rem/1.056 var(--font-sans);
+  --type-display-tracking: -0.025em;
+  --type-h1: 600 2.75rem/1.182 var(--font-sans);
+  --type-h1-tracking: -0.015em;
+  --type-h2: 600 1.875rem/1.267 var(--font-sans);
+  --type-h2-tracking: -0.01em;
+  --type-h3: 600 1.312rem/1.333 var(--font-sans);
+  --type-h3-tracking: -0.005em;
+  --type-lead: 400 1.312rem/1.524 var(--font-sans);
+  --type-lead-tracking: -0.003em;
+  --type-body: 400 1.062rem/1.647 var(--font-sans);
+  --type-body-tracking: 0em;
+  --type-small: 400 0.875rem/1.429 var(--font-sans);
+  --type-small-tracking: 0em;
+  --type-label: 500 0.75rem/1.333 var(--font-mono);
+  --type-label-tracking: 0.06em;
+  --type-code: 400 0.875rem/1.571 var(--font-mono);
+  --type-code-tracking: 0em;
+}
+
+/* light (default) */
+:root, [data-theme="light"] {
+  color-scheme: light;
+  --bg-canvas: var(--ms-paper-50);
+  --bg-surface: var(--ms-paper-0);
+  --bg-subtle: var(--ms-paper-100);
+  --bg-code: var(--ms-ink-50);
+  --bg-inverse: var(--ms-ink-800);
+  --bg-accent-soft: var(--ms-signal-100);
+  --text-primary: var(--ms-ink-800);
+  --text-secondary: var(--ms-ink-500);
+  --text-inverse: var(--ms-paper-50);
+  --text-accent: var(--ms-signal-700);
+  --text-link: var(--ms-link-600);
+  --border-default: var(--ms-ink-200);
+  --border-strong: var(--ms-ink-400);
+  --brand-ink: var(--ms-ink-800);
+  --brand-signal: var(--ms-signal-500);
+  --brand-paper: var(--ms-paper-50);
+  --status-adopt: var(--ms-green-600);
+  --status-trial: var(--ms-link-600);
+  --status-assess: var(--ms-amber-700);
+  --status-hold: var(--ms-signal-700);
+}
+
+/* dark: follows the OS unless the page forces a theme */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg-canvas: var(--ms-ink-900);
+    --bg-surface: var(--ms-ink-850);
+    --bg-subtle: var(--ms-ink-800);
+    --bg-code: var(--ms-ink-850);
+    --bg-inverse: var(--ms-paper-50);
+    --bg-accent-soft: var(--ms-ink-700);
+    --text-primary: var(--ms-ink-100);
+    --text-secondary: var(--ms-ink-300);
+    --text-inverse: var(--ms-ink-900);
+    --text-accent: var(--ms-signal-300);
+    --text-link: var(--ms-link-300);
+    --border-default: var(--ms-ink-700);
+    --border-strong: var(--ms-ink-500);
+    --brand-ink: var(--ms-ink-100);
+    --brand-signal: var(--ms-signal-300);
+    --brand-paper: var(--ms-ink-900);
+    --status-adopt: var(--ms-green-300);
+    --status-trial: var(--ms-link-300);
+    --status-assess: var(--ms-amber-300);
+    --status-hold: var(--ms-signal-300);
+  }
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg-canvas: var(--ms-ink-900);
+  --bg-surface: var(--ms-ink-850);
+  --bg-subtle: var(--ms-ink-800);
+  --bg-code: var(--ms-ink-850);
+  --bg-inverse: var(--ms-paper-50);
+  --bg-accent-soft: var(--ms-ink-700);
+  --text-primary: var(--ms-ink-100);
+  --text-secondary: var(--ms-ink-300);
+  --text-inverse: var(--ms-ink-900);
+  --text-accent: var(--ms-signal-300);
+  --text-link: var(--ms-link-300);
+  --border-default: var(--ms-ink-700);
+  --border-strong: var(--ms-ink-500);
+  --brand-ink: var(--ms-ink-100);
+  --brand-signal: var(--ms-signal-300);
+  --brand-paper: var(--ms-ink-900);
+  --status-adopt: var(--ms-green-300);
+  --status-trial: var(--ms-link-300);
+  --status-assess: var(--ms-amber-300);
+  --status-hold: var(--ms-signal-300);
+}
