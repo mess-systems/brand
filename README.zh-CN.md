@@ -4,7 +4,7 @@
 
 **mess.systems** 的视觉语言：标志、文字标、颜色、字体、图形，以及使用规则。本仓库提供可直接使用的标志文件、网站图标和设计令牌（CSS 及其他工具）。
 
-Figma 源文件：[“mess.systems — фирменный стиль”](https://www.figma.com/design/DhvKFPRm6hQzBldVbap2EU)。
+规范页面图片：[`docs/preview/`](docs/preview/)。
 
 ![规范封面](docs/preview/00-cover.png)
 

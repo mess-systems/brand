@@ -4,7 +4,7 @@
 
 The visual language of **mess.systems**: the mark, the wordmark, colours, type, graphics, and the rules for using them. This repository holds ready-to-use logo files, site icons and design tokens for CSS and other tools.
 
-Figma source: [“mess.systems — фирменный стиль”](https://www.figma.com/design/DhvKFPRm6hQzBldVbap2EU).
+Guide pages as images: [`docs/preview/`](docs/preview/).
 
 ![Guide cover](docs/preview/00-cover.png)
 
