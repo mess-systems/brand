@@ -1,0 +1,14 @@
+mess.systems — открытая организация как рабочий пример того, как меняются работа, компании, люди и системы при переходе от эпохи до AI к эпохе AI. Проект ведёт Павел Евдокимов.
+
+Публикуем:
+— блог: https://mess.systems/ru/blog/
+— типовые архитектуры (blueprints): https://github.com/mess-systems/blueprints
+— технологический радар: https://github.com/mess-systems/tech-radar
+
+Сайт: https://mess.systems
+GitHub: https://github.com/mess-systems
+X: https://x.com/mess_systems
+
+Вопрос к посту — в чате обсуждений. Замечание к стандарту или решению — в issues:
+https://github.com/mess-systems/naming-standard/issues
+https://github.com/mess-systems/tech-radar/issues
